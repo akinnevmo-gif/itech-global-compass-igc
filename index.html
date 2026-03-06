@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>ITech Global Compass (IGC)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>ITech Global Compass (IGC)</h1>
+<h3>Created by Akin S. Sokpah - Liberia</h3>
+
+<div class="compass-box">
+<canvas id="compass" width="420" height="420"></canvas>
+</div>
+
+<div class="panel">
+
+<h2>Engineering Data</h2>
+
+<p>Compass Radius: <span id="radius"></span> m</p>
+<p>Needle Length: <span id="needle"></span> m</p>
+<p>Magnetic Declination: <span id="declination"></span>°</p>
+
+<h2>Sensor Data</h2>
+
+<p>Heading: <span id="heading"></span>°</p>
+<p>Latitude: <span id="lat"></span></p>
+<p>Longitude: <span id="lon"></span></p>
+
+</div>
+
+<script src="config.js"></script>
+<script src="compass-engine.js"></script>
+<script src="sensors.js"></script>
+<script src="gps.js"></script>
+<script src="ui.js"></script>
+
+</body>
+</html>
